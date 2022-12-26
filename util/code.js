@@ -5,6 +5,7 @@
 	var tbody = document.getElementById("tbody");
 	var victoria = false;
 	
+	
 	var random = Math.floor(Math.random() * 250);
 	var contador = 0;
 	
@@ -187,15 +188,17 @@
 									
 									if(poke[0] < pokemon[random][0]){
 									
-										td.innerHTML = "<h4>"+poke[0]+" 🡹</h4>";
+										td.innerHTML = "<h4>"+poke[0]+"</h4>";
 										td.style.backgroundColor = "tomato";
+										td.innerHTML = "<img width=50px src=images/flechaup.png>";
 										tr_ins.appendChild(td);
 										
 									}
 									else{
 									
-										td.innerHTML = "<h4>"+poke[0]+" 🡻</h4>";
+										td.innerHTML = "<h4>"+poke[0]+"</h4>";
 										td.style.backgroundColor = "tomato";
+										td.innerHTML = "<img width=50px src=images/flechadown.png>";
 										tr_ins.appendChild(td);
 									
 									}									
@@ -212,7 +215,7 @@
 		}
 		else{
 		
-			document.write("no funciona");//texto esta vacio.
+			//document.write("no funciona");//texto esta vacio.
 		
 		}
 	
