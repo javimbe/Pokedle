@@ -190,7 +190,6 @@
 									
 										td.innerHTML = "<h4>"+poke[0]+"</h4>";
 										td.style.backgroundColor = "tomato";
-										td.innerHTML = "<img width=50px src=images/flechaup.png>";
 										tr_ins.appendChild(td);
 										
 									}
@@ -198,7 +197,6 @@
 									
 										td.innerHTML = "<h4>"+poke[0]+"</h4>";
 										td.style.backgroundColor = "tomato";
-										td.innerHTML = "<img width=50px src=images/flechadown.png>";
 										tr_ins.appendChild(td);
 									
 									}									
